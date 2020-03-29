@@ -1,0 +1,82 @@
+.container1{
+    background-color: palevioletred;
+    height: 30px;
+    padding: 20px;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    
+
+}
+.dogpaw{
+    float: right;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    
+}
+.nav{
+    background-color: violet;
+    margin: 5px;
+    padding: 5px;
+}
+.nav1{
+    color: black;
+    padding: 10px 70px 0px 0px;
+
+}
+
+.img1 {
+    width: 40px;
+    height: 40px;
+}
+
+.img2 {
+    width: 40px;
+    height: 40px;
+}
+
+.img3 {
+    width: 40px;
+    height: 40px;
+}
+
+.main {
+    border: 5px solid black;
+
+}
+
+.main::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+
+.main1 {
+
+    border: 5px solid red;
+    float: left;
+    margin: 10px 0px 10px 10px;
+    width: 48%;
+
+}
+
+.main2 {
+    float: right;
+    border: 5px solid red;
+    width: 48%;
+    margin: 10px 10px 10px 0px;
+}
+
+
+
+.div1 {
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+.div2 {
+    border: 2px solid gray;
+    margin: 10px;
+}
